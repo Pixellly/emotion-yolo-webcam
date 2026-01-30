@@ -37,10 +37,10 @@ Required packages:
 ## Run Real-Time Webcam Emotion Detection
 This project uses a Python script that handles webcam access, frame capture, YOLO inference, and visualization.
 ```bash
-python scripts/yolo_detect.py --model models/my_model.pt --source 0
+python scripts/yolo_detect.py --model models/my_model.pt --source usb0
 ```
-- source 0 uses the default webcam
-- Press q to quit
+- source usb0 uses the default webcam
+- Ctrl + c to quit
 
 
 ## Training Details
